@@ -7,7 +7,7 @@ The sync signal from the signal generator is connected directly to Channel 4 of 
 The program has a number of command line options:
 python VNA.py -b BEGIN_Freq -e END_Freq <-p Points_Per_Decade> <-f LOGFILE_Prefix>
 
-The program will take logarithmically-spaced steps from BEGIN to END frequencies. THe nominal signal amplitude is 1 Vpp.
+The program takse logarithmically-spaced steps from BEGIN to END frequencies. The nominal signal amplitude is 1 Vpp.
 Some options are:
   -s StepSize -- use linear steps instead of logarithmic scaling of frequency steps
   -l -- just list frequency steps to be taken; don't actually run
