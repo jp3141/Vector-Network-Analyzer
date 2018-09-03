@@ -6,6 +6,7 @@ The forcing signal is connected to Channel 1 of the oscilloscope; you can use a 
 The sensed signal is connected to Channel 2 of the oscilloscope. A probe can be used here too if desired. 
 The sync signal from the signal generator is connected directly to Channel 4 of the oscilloscope. On the SDG1025, this cannot be used above 2 MHz, so the program switches to triggering directly from Channel 1 above this frequency. This has the aded benefit of allowing 500 MS/s sample rate for the oscilloscope. 
 The program has a number of command line options:
+
 python VNA.py -b BEGIN_Freq -e END_Freq <-p Points_Per_Decade> <-f LOGFILE_Prefix>
 
 The program takes logarithmically-spaced steps from BEGIN to END frequencies. The nominal signal amplitude is 1 Vpp.
