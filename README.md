@@ -1,7 +1,7 @@
 # Vector-Network-Analyzer
-Use a Rigol DS1054Z Oscilloscope and Siglent SDG1025 Function Generator as a Vector network Analyzer
+Use a Rigol DS1054Z Oscilloscope and Siglent SDG1025 Function Generator as a Vector Network Analyzer
 This is a simple vector network analyzer using a function generator and an oscilloscope. A vector network analyzer measures the ratio between two signals -- both the amplitude and phase shift. 
-The forcing signal is connected to Channel 1 of the oscilloscope. You can use a probe if desired.
+The forcing signal is connected to Channel 1 of the oscilloscope; you can use a probe if desired.
 The sensed signal is connected to Channel 2 of the oscilloscope. A probe can be used here too if desired. 
 The sync signal from the signal generator is connected directly to Channel 4 of the oscilloscope. On the SDG1025, this cannot be used above 2 MHz, so the program switches to triggering directly from CHannel 1 above this frequency. This has the aded benefit of allowing 500 MS/s sample rate for the oscilloscope. 
 The program has a number of command line options:
