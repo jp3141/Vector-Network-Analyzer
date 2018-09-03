@@ -15,6 +15,11 @@ Some options are:
   -l -- just list frequency steps to be taken; don't actually run
   -n -- don't plot the data. Program exits at the end of the run
   -f FILENAME_Prefix -- the prefix of the logfile with data in a CSV format with # comments
+  -p points -- number of sample points per decade
+  -z resistance -- resistance of current-sampling resistor. Plot then shows Z=(Channel2)/(Channel1-Channel2)*Z which is the complex Z of the structure under test. Note there is no calibration or deembeeding of the test fixture or probes
+  -v voltage -- set the amplitude of the generator's output voltage
+  -b Freq -- begin freqency of sweep
+  -e Freq -- end frequency of sweep
   -h -- help & exit
 ```
   Since the signals will cover a wide dynamic range (over 60 dB), the program will dynamically adjust the 'scope vertical scale on each channel to optimally use the range available. The Rigol scope can use arbitrary vertical scales (i.e. not restricted to a 1:2:5 pattern).
