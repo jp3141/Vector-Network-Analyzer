@@ -1,5 +1,5 @@
 # Vector-Network-Analyzer
-Use a Rigol DS1054Z Oscilloscope and Siglent SDG1025 Function Generator as a Vector Network Analyzer (VNA).
+Use a Rigol DS1054Z Oscilloscope and Siglent SDG1025 Function Generator as a Vector Network Analyzer (VNA) to plot transfer functions or impedance vs. frequency.
 
 This is a simple vector network analyzer using a function generator and an oscilloscope. A vector network analyzer measures the ratio between two signals -- both the amplitude and phase shift. 
 The forcing signal is connected to Channel 1 of the oscilloscope; you can use a probe if desired.
